@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A site for a CV and some info about the creator."
+    />
+    <meta
+      name="keywords"
+      lang="en-us"
+      content="web programming, CS, UOC, CV, Spiros Doukeris"
+    />
+    <meta name="author" content="Spyridon Doukeris" />
+    <title>Spyridon Doukeris - CV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <linkpictures
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e81c4ff1cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+      nonce="YOUR_NONCE_VALUE"
+    ></script>
+    <script src="node_module/boostrap/dist/js/boostrap.bundle.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="pictures/cv.png" alt="Your Image" class="navbar-image" />
+      <div class="social-icons">
+        <a
+          href="https://www.facebook.com/spiros.doukeris"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
+        <a
+          href="https://github.com/spirosdouk"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#home">Home</a>
+        <a href="second-page.html">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header id="intro-header">
+      <figure class="profile-pic">
+        <img src="pictures/profile.jpg" alt="Profile Picture" />
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;Spiros Doukeris</figcaption>
+      </figure>
+      <div class="header-text">
+        <h1>A small introduction:</h1>
+        <p>
+          <br /><br />
+          I am an undergraduate student in the computer science department of
+          the University of Crete. <br /><br /><br /><br />
+          I am looking for new freelance and professional opportunities.<br /><br /><br /><br />
+          I am learning JavaScript. I have some experience with C, C++, Python,
+          Java, and Git from the university and from online courses.<br /><br />
+        </p>
+      </div>
+    </header>
+
+    <section
+      class="experience text-center"
+      id="experience"
+      style="background-color: #f8f9fa; padding: 40px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 order-md-2">
+            <div class="image-overlay">
+              <img
+                src="pictures/niche.jpg"
+                class="img-fluid rounded border border-4 border-light shadow"
+                alt="Your Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1 text-black">
+            <h2 class="text-dark">Experience</h2>
+            <ul class="list-group">
+              <li class="list-group-item">HTML/CSS</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">Responsive Web Design</li>
+              <li class="list-group-item">
+                Web Development Frameworks (e.g., React, Angular)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" style="padding: 40px">
+      <h2>Contact Information</h2>
+      <table>
+        <tr>
+          <td>Email:</td>
+          <td>csd4871@csd.uoc.gr</td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td>+123 456 7890</td>
+        </tr>
+        <tr>
+          <td>Website:</td>
+          <td>
+            <a
+              href="https://www.atptour.com/en/players/stefanos-tsitsipas/te51/overview"
+              >https://www.atptour.com/en/players/stefanos-tsitsipas/te51/overview</a
+            >
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <footer>
+      <div
+        class="fb-share-button"
+        data-href="http://127.0.0.1:5500/testa/index.html"
+        data-layout="button_count"
+        style="float: left"
+      ></div>
+      <p>&copy; Spyridon Doukeris</p>
+    </footer>
+  </body>
+</html>
