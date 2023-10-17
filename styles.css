@@ -107,7 +107,7 @@ table td:last-child a {
   background-color: rgba(102, 100, 100, 0.5);
   text-decoration: none;
   margin-bottom: 150px;
-  margin: 0 auto; /* Center the element */
+  margin: 0 auto;
 }
 
 .list-group-item {
@@ -118,15 +118,15 @@ table td:last-child a {
 }
 
 #experience .list-group-item {
-  border: none !important;
-  background-color: transparent !important;
-  color: #020202 !important;
-  font-weight: bold !important;
-  padding-left: 0 !important;
+  border: none;
+  background-color: transparent;
+  color: #020202;
+  font-weight: bold;
+  padding-left: 0;
 }
 
 #experience .list-group-item {
-  margin: 5px 0 !important;
+  margin: 5px 0;
 }
 
 footer {
@@ -142,7 +142,7 @@ footer p {
 
 .navbar-image {
   max-width: 80px;
-  margin-right: 740px;
+  margin-right: auto;
 }
 
 .navbar {
@@ -187,7 +187,7 @@ footer p {
   background-image: url("pictures/github.png");
   background-size: cover;
   vertical-align: middle;
-  margin-right: 469px;
+  margin-right: 280px;
 }
 
 .contact a:hover {
